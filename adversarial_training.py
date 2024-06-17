@@ -1,7 +1,7 @@
 import torch 
 import torch.nn as nn 
 import torch.optim as optim
-from simplednn import SimpleNN, load_data, evaluate
+from simple_dnn import SimpleNN, load_data, evaluate
 from fgsm_attacks import fgsm_attack, targeted_fgsm_attack
 
 # Model architecture
