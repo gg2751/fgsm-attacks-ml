@@ -1,5 +1,5 @@
 import torch
-from simplednn import SimpleNN, load_data, evaluate
+from simple_dnn import SimpleNN, load_data, evaluate
 
 # Model architecture
 input_size = 28 * 28  # MNIST images are 28x28 pixels
